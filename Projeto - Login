@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login</title>
+        <link rel= "stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+        <link href="./css/main.css" rel="stylesheet" /> 
+    </head>
+    
+    <body>
+        <div id="login-container">
+         <h1>login</h1>
+         <form action="">
+            <label for="email">E-MAIL</label>
+            <input type="email" name="email" id="email" placeholder="digite seu e-mail" autocomplete="off">
+            <label for="password">SENHA</label>
+            <input type="password" name="password" id="password" placeholder="digite sua senha">
+            <a href="#" id="forgot-pass">Esqueceu a senha?</a>
+            <input type="submit" value="login" a>
+         </form>
+         <div id="register-container">
+            <p>Ainda não tem uma conta?</p>
+            <a href="registrar.html">resgistrar</a>
+         </div>
+    
+        </body>
+        
+        </html> 
+        
+        <br/> 
+
+        <br/> 
+        
+        /*CSS*/
+/*Long*/
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: helvetica;
+color: #323323;
+border: none;
+}
+  body {
+  background-image: url('../img/ONE\ CLICK\ \(2\).png');   
+  background-size: cover;
+
+
+
+  }
+     
+ 
+  textarea:focus,input:focus{
+    outline: none;
+  }
+
+  a, label {
+      font-size: .8rem;
+  }
+
+  a:hover{
+      color: #08558b;
+  }
+
+  /*container login*/
+
+  #login-container{
+    background-color:#fff ;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+  }
+    /*formulario*/
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label,input{
+    display: block;
+    width: 100%;
+    text-align:left;
+}
+
+label{
+    font-weight: bold;
+}
+
+input{
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus{
+    border-bottom: 2px solid #08558b;
+}
+
+#forgot-pass{
+    text-align: right;
+    display: block;
+
+}
+
+input[type="submit"]{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height:40px ;
+    border-radius:20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #08558b;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #1b223c;
+    transition: .5s;
+}
+
+#resgister-container p {
+    margin-bottom: 10px;
+
+}
