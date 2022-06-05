@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login</title>
+        <link rel= "stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+        <link href="./css/main.css" rel="stylesheet" /> 
+    </head>
+    
+    <body>
+        <div id="login-container">
+         <h1>login</h1>
+         <form action="">
+            <label for="email">E-MAIL</label>
+            <input type="email" name="email" id="email" placeholder="digite seu e-mail" autocomplete="off">
+            <label for="password">SENHA</label>
+            <input type="password" name="password" id="password" placeholder="digite sua senha">
+            <a href="#" id="forgot-pass">Esqueceu a senha?</a>
+            <input type="submit" value="login" a>
+         </form>
+         <div id="register-container">
+            <p>Ainda não tem uma conta?</p>
+            <a href="registrar.html">resgistrar</a>
+         </div>
+        
+
+
+    
+        
+        </body>
+        
+        </html> 
+        
+        <br/> 
+
+         <br/> 
